@@ -1016,48 +1016,34 @@ footer div {
     }
 }
 
-/* .typewriter {
+.typewriter {
     overflow: hidden;
-    border-right: 0.15em solid #ff3a5e;
     white-space: normal;
     margin: 0 auto;
     letter-spacing: .15em;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    white-space: normal;
+    font-size: 2.4rem;
 }
+
+ .typewriter::after {
+    content: "|";
+    margin-left: 8px;
+    opacity: 1;
+    animation: blink 1s infinite;
+    color: #ff3a5e;
+}
+
 
 @keyframes typing {
     from {
-        width: 0;
+        width: 0
     }
 
     to {
-        width: 100%;
+        width: 100%
     }
 }
 
-@keyframes blink-caret {
-
-    from,
-    to {
-        border-color: transparent;
-    }
-
-    50% {
-        border-color: #ff3a5e;
-    }
-}
-
-@keyframes blink {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-} */
 
 .grid-layout {
     max-width: 1140px;
