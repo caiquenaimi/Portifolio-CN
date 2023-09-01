@@ -95,6 +95,20 @@ header {
     left: 0;
 }
 
+#languages-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 16px;
+}
+
+svg {
+    width: 5.5rem;
+    height: 5.5rem;
+    fill: #fff;
+    transition: 1s all ease;
+}
+
 @media screen and (max-width: 992px) {
     header {
         padding: 0px 24px;
@@ -630,27 +644,27 @@ header .grid-layout nav .nav-list li a:hover {
     text-align: left;
 }
 
-#s-projects .grid-layout #projects .teslabank {
+#s-projects .grid-layout #projects .project1 {
     border: 1px solid #ff3a5e;
 }
 
-#s-projects .grid-layout #projects .teslabank:hover {
+#s-projects .grid-layout #projects .project1:hover {
     border: 1px solid #ff3a5e;
 }
 
-#s-projects .grid-layout #projects .naped {
+#s-projects .grid-layout #projects .project2 {
     border: 1px solid #00a3ff;
 }
 
-#s-projects .grid-layout #projects .naped:hover {
+#s-projects .grid-layout #projects .project2:hover {
     border: 1px solid #00a3ff;
 }
 
-#s-projects .grid-layout #projects .efront {
+#s-projects .grid-layout #projects .project3 {
     border: 1px solid #a6fb98;
 }
 
-#s-projects .grid-layout #projects .efront:hover {
+#s-projects .grid-layout #projects .project3:hover {
     border: 1px solid #a6fb98;
 }
 
@@ -696,27 +710,27 @@ header .grid-layout nav .nav-list li a:hover {
     font-size: 1.8rem
 }
 
-#s-projects .grid-layout #teslabank {
+#s-projects .grid-layout #project1 {
     color: #e51d37
 }
 
-#s-projects .grid-layout #teslabank::after {
+#s-projects .grid-layout #project1::after {
     background: linear-gradient(270deg, #e51d37 0%, #17161d 100%)
 }
 
-#s-projects .grid-layout #naped {
+#s-projects .grid-layout #project2 {
     color: #00a3ff
 }
 
-#s-projects .grid-layout #naped::after {
+#s-projects .grid-layout #project2::after {
     background: linear-gradient(270deg, #00a3ff 0%, #17161d 100%)
 }
 
-#s-projects .grid-layout #efront {
+#s-projects .grid-layout #project3 {
     color: #a6fb98
 }
 
-#s-projects .grid-layout #efront::after {
+#s-projects .grid-layout #project3::after {
     background: linear-gradient(270deg, #a6fb98 0%, #17161d 100%)
 }
 
@@ -1002,12 +1016,35 @@ footer div {
     }
 }
 
-.typewriter:after {
-    content: "|";
-    margin-left: 8px;
-    opacity: 1;
-    animation: blink 1s infinite;
-    color: #ff3a5e;
+/* .typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid #ff3a5e;
+    white-space: normal;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #ff3a5e;
+    }
 }
 
 @keyframes blink {
@@ -1020,7 +1057,7 @@ footer div {
     50% {
         opacity: 0;
     }
-}
+} */
 
 .grid-layout {
     max-width: 1140px;
