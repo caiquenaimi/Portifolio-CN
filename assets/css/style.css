@@ -386,27 +386,26 @@ header .grid-layout nav .nav-list li a:hover {
     background-position: center;
     background-size: cover;
     border-radius: 4px;
-    height: 38%;
-    object-fit: contain;
+    height: 500px;
 }
 
 @media screen and (max-width: 1200px) {
     #s-about .grid-layout>div #creator-photo {
         width: 100%;
-        height: 400px;
+        height: 38%;
     }
 }
 
 @media screen and (max-width: 992px) {
     #s-about .grid-layout>div #creator-photo {
-        height: 350px;
+        height: 38%;
         ;
     }
 }
 
 @media screen and (max-width: 768px) {
     #s-about .grid-layout>div #creator-photo {
-        height: 300px;
+        height: 48%;
     }
 }
 
@@ -1017,26 +1016,33 @@ footer div {
     }
 }
 
-.typewriter::after {
+.typewriter {
+    overflow: hidden;
+    white-space: normal;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    white-space: normal;
+    font-size: 2.4rem;
+}
+
+ .typewriter::after {
     content: "|";
     margin-left: 8px;
     opacity: 1;
-    color: #ff3a5e;
     animation: blink 1s infinite;
+    color: #ff3a5e;
 }
 
-@keyframes blink {
 
-    0%,
-    100% {
-        opacity: 0;
+@keyframes typing {
+    from {
+        width: 0
     }
 
-    50% {
-        opacity: 1;
+    to {
+        width: 100%
     }
 }
-
 
 
 .grid-layout {
