@@ -386,7 +386,7 @@ header .grid-layout nav .nav-list li a:hover {
     background-position: center;
     background-size: cover;
     border-radius: 4px;
-    height: 500px;
+    height: 400px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -405,7 +405,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 @media screen and (max-width: 768px) {
     #s-about .grid-layout>div #creator-photo {
-        height: 48%;
+        height: 38%;
     }
 }
 
