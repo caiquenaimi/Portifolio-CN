@@ -381,7 +381,8 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout>div #creator-photo {
-    width: 47%;
+    width:47%;
+    margin-bottom: 10rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
