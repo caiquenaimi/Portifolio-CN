@@ -498,6 +498,13 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 @media screen and (max-width: 992px) {
+  #s-about .grid-layout > div div:nth-child(2) nav ul a li svg {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 992px) {
   #s-experience {
     padding: 48px 24px;
   }
