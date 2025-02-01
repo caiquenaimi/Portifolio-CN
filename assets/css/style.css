@@ -1025,6 +1025,12 @@ footer div {
   }
 }
 
+@media screen and (max-width: 992px) {
+  footer .grid-layout p {
+    font-size: 2.7rem;
+  }
+}
+
 .typewriter {
   overflow: hidden;
   white-space: normal;
