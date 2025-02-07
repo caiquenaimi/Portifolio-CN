@@ -109,6 +109,28 @@ svg {
   transition: 1s all ease;
 }
 
+.cvDownloadButton a {
+  background: #ff3a5e;
+  color: #fff;
+  backdrop-filter: blur(10px);
+  padding: 20px 32px;
+  max-width: 270px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.cvDownloadButton a:hover {
+  padding: 20px 45px;
+  max-width: 302px;
+}
+
 @media screen and (max-width: 992px) {
   header {
     padding: 0px 24px;
@@ -250,7 +272,6 @@ header .grid-layout nav .nav-list li a:hover {
   background-color: #040405;
   position: relative;
 }
-
 
 #s-home .grid-layout #home {
   display: flex;
